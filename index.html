@@ -1,456 +1,887 @@
 <!DOCTYPE html>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!-- ==============================
+    Project:        Metronic "Aircv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+  <!-- BEGIN HEAD -->
   <head>
-    <title>Kenobi Jedi</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+    <title>Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- THEME STYLES -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
   </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Header -->
-      <header id="header">
-        <!-- <div class="logo">
-							<span class="icon fa-gem"></span>
-						</div> -->
-        <div class="content">
-          <div class="inner">
-            <h1>KENOBI JEDI R. RICARTE</h1>
-            <p>
-              I am not a front-end developer THIS IS A TEMPLATE that I edited<br />
-              for free
+  <!-- END HEAD -->
+
+  <!-- BODY -->
+  <body id="body" data-spy="scroll" data-target=".header">
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
+
+            <!-- Logo -->
+            <div class="logo">
+              <a class="logo-wrap" href="#body">
+                <!-- <img
+                  class="logo-img logo-img-main"
+                  src="img/logo.png"
+                  alt="Asentus Logo"
+                /> -->
+                <!-- <img
+                  class="logo-img logo-img-active"
+                  src="img/logo-dark.png"
+                  alt="Asentus Logo"
+                /> -->
+              </a>
+            </div>
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="nav navbar-nav navbar-nav-right">
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#body">Home</a>
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#experience"
+                    >Experience</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#work">Work</a>
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Navbar Collapse -->
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
+
+    <!--========== SLIDER ==========-->
+    <div
+      class="promo-block parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/1920x1080/01.jpg"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="promo-block-divider">
+              <h1 class="promo-block-title">
+                Kenobi Jedi <br />
+                Ricarte
+              </h1>
+              <p class="promo-block-text">
+                Back-end Developer &amp; DevOps Practitioner
+              </p>
+            </div>
+            <ul class="list-inline">
+              <li>
+                <a
+                  href="https://www.instagram.com/kenewbie/"
+                  class="social-icons"
+                  ><i class="icon-social-facebook"></i
+                ></a>
+              </li>
+              <!-- <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-twitter"></i
+                ></a>
+              </li> -->
+              <!-- <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-dribbble"></i
+                ></a>
+              </li> -->
+              <!-- <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-behance"></i
+                ></a>
+              </li> -->
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/kjricarte/"
+                  class="social-icons"
+                  ><i class="icon-social-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!--========== SLIDER ==========-->
+
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="about">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-3 sm-margin-b-30">
+            <div class="text-right sm-text-left">
+              <h2 class="margin-b-0">Intro</h2>
+              <p>What I am all about.</p>
+            </div>
+          </div>
+          <div class="col-sm-8 col-sm-offset-1">
+            <div class="margin-b-60">
+              <p>
+                I am Kenobi Jedi R. Ricarte, a passionate backend developer with
+                expertise in building robust, scalable, and efficient
+                server-side systems. My work focuses on ensuring seamless
+                communication between databases, applications, and users,
+                delivering high-performance solutions tailored to client needs.
+              </p>
+              <p>
+                I am deeply interested in leveraging artificial intelligence to
+                build smarter and more efficient backend solutions. My goal is
+                to apply AI technologies like machine learning, natural language
+                processing, and predictive analytics to enhance system
+                capabilities and improve user experiences.
+              </p>
+            </div>
+
+            <!-- Progress Box -->
+            <div class="progress-box">
+              <h5>
+                Node JS and Frameworks<span class="color-heading pull-right"
+                  >96%</span
+                >
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="96"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                Docker, Kubernetes, RabbitMQ
+                <span class="color-heading pull-right">87%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="87"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                PostgreSQL, MongoDB, MySQL
+                <span class="color-heading pull-right">95%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="95"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                PyTorch, Sentence Transformers, WatsonX AI
+                <span class="color-heading pull-right">77%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="77"
+                ></div>
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Experience -->
+    <div id="experience">
+      <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
+          <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                <h2 class="margin-b-0">Experience</h2>
+                <p>Batman would be jealous.</p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+              <div class="row row-space-2 margin-b-4">
+                <div class="col-md-4 md-margin-b-4">
+                  <div class="service" data-height="height">
+                    <div class="service-element">
+                      <i class="service-icon icon-chemistry"></i>
+                    </div>
+                    <div class="service-info">
+                      <h3>Back-end Development</h3>
+                      <p class="margin-b-5">
+                        have a experience in back-end development mainly
+                        building scalable APIs
+                      </p>
+                    </div>
+                    <a href="#" class="content-wrapper-link"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 md-margin-b-4">
+                  <div
+                    class="service bg-color-base wow zoomIn"
+                    data-height="height"
+                    data-wow-duration=".3"
+                    data-wow-delay=".1s"
+                  >
+                    <div class="service-element">
+                      <i
+                        class="service-icon color-white icon-screen-tablet"
+                      ></i>
+                    </div>
+                    <div class="service-info">
+                      <h3 class="color-white">Cloud Certifications</h3>
+                      <p class="color-white margin-b-5">
+                        Obtained different badges for cloud certifications e.g.
+                        AWS Cloud Practitioner, IBM Cloud Advocate V2
+                      </p>
+                    </div>
+                    <a href="#" class="content-wrapper-link"></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service" data-height="height">
+                    <div class="service-element">
+                      <i class="service-icon icon-badge"></i>
+                    </div>
+                    <div class="service-info">
+                      <h3>Generative AI Development</h3>
+                      <p class="margin-b-5">
+                        Interested in Artificial Intelligence
+                      </p>
+                    </div>
+                    <a href="#" class="content-wrapper-link"></a>
+                  </div>
+                </div>
+              </div>
+              <!--// end row -->
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
+    </div>
+    <!-- End Experience -->
+
+    <!-- Work -->
+    <div id="work">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-3 sm-margin-b-30">
+            <div class="text-right sm-text-left">
+              <h2 class="margin-b-0">Works</h2>
+              <p>I want to build real value.</p>
+              <p>
+                <a href="https://unsplash.com/"
+                  >Photos From: https://unsplash.com/</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-8 col-sm-offset-1">
+            <!-- Masonry Grid -->
+            <div class="masonry-grid row row-space-2">
+              <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/800x400/01.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >Hide</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Sustainability Project</h3>
+                        <span
+                          >This is a project about helping farmers to connect
+                        </span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              The project is for the farmers to connect using
+                              the website to sell or rent their tractors and
+                              other farmer goods. The project includes forums
+                              videos and statistics for the farmers
+                            </p>
+                            <p>
+                              I've contributed by making the back-end APIs that
+                              connect to the postgreSQL for the website and some
+                              front-end programming using Angular
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Back-End Development,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >APIs,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Portfolio</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <!-- <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Team
+                            </p> -->
+                            <!-- <p class="margin-b-5">
+                              <strong>Designer:</strong> Alisa Keys
+                            </p> -->
+                            <p class="margin-b-5">
+                              <strong>Developer:</strong> Kenobi Jedi Ricarte
+                            </p>
+                            <p>I am one of the developers in the Team.</p>
+                            <!-- <p class="margin-b-5">
+                              <strong>Customer:</strong> Keenthemes
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x400/01.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >Hide</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">
+                          Research Sustainability Project
+                        </h3>
+                        <span
+                          >The project is for the sustaibility researchers to
+                          make use of AI for finding their research</span
+                        >
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              The project is for the researchers of the
+                              university. They have requested a chat bot that
+                              would get all the details from a group of books
+                              and answer the questions using the books as a
+                              context
+                            </p>
+                            <p>
+                              I have developed the whole back-end of the chatbot
+                              and
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Design,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Coding,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Portfolio</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <!-- <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Team
+                            </p> -->
+                            <!-- <p class="margin-b-5">
+                              <strong>Designer:</strong> Alisa Keys
+                            </p> -->
+                            <p class="margin-b-5">
+                              <strong>Developer:</strong> Kenobi Jedi Ricarte
+                            </p>
+                            <p>I am one of the developers in the Team.</p>
+                            <!-- <p class="margin-b-5">
+                              <strong>Customer:</strong> Keenthemes
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/01.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >Hide</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Art Of Coding</h3>
+                        <span>Clean &amp; Minimalistic Design</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum.
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim
+                              veniam, quis nostrud.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Design,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Coding,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Portfolio</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <!-- <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Team
+                            </p> -->
+                            <!-- <p class="margin-b-5">
+                              <strong>Designer:</strong> Alisa Keys
+                            </p> -->
+                            <p class="margin-b-5">
+                              <strong>Developer:</strong> Kenobi Jedi Ricarte
+                            </p>
+                            <p>I am one of the developers in the Team.</p>
+                            <!-- <p class="margin-b-5">
+                              <strong>Customer:</strong> Keenthemes
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/02.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >Hide</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Art Of Coding</h3>
+                        <span>Clean &amp; Minimalistic Design</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum.
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim
+                              veniam, quis nostrud.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Design,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Coding,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Portfolio</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <!-- <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Team
+                            </p> -->
+                            <!-- <p class="margin-b-5">
+                              <strong>Designer:</strong> Alisa Keys
+                            </p> -->
+                            <p class="margin-b-5">
+                              <strong>Developer:</strong> Kenobi Jedi Ricarte
+                            </p>
+                            <p>I am one of the developers in the Team.</p>
+                            <!-- <p class="margin-b-5">
+                              <strong>Customer:</strong> Keenthemes
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/03.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >Hide</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Art Of Coding</h3>
+                        <span>Clean &amp; Minimalistic Design</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              Duis aute irure dolor in reprehenderit in
+                              voluptate velit esse cillum dolore eu fugiat nulla
+                              pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt
+                              mollit anim id est laborum.
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim
+                              veniam, quis nostrud.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Design,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Coding,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a class="work-popup-tag-link" href="#"
+                                  >Portfolio</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <!-- <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Team
+                            </p> -->
+                            <!-- <p class="margin-b-5">
+                              <strong>Designer:</strong> Alisa Keys
+                            </p> -->
+                            <p class="margin-b-5">
+                              <strong>Developer:</strong> Kenobi Jedi Ricarte
+                            </p>
+                            <p>I am one of the developers in the Team.</p>
+                            <!-- <p class="margin-b-5">
+                              <strong>Customer:</strong> Keenthemes
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+            </div>
+            <!-- End Masonry Grid -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End Work -->
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="bg-color-sky-light">
+        <div class="container content-lg">
+          <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                <h2 class="margin-b-0">Contacts</h2>
+                <p>Contact Me.</p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+              <div class="row">
+                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                  <h5>Location</h5>
+                  <a href="https://g.co/kgs/YfpnWbP">Manila, Philippines</a>
+                </div>
+                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                  <h5>Phone</h5>
+                  <a>+639-49-180-0717</a>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <h5>Email</h5>
+                  <a href="mailto:kenobiricarte@gmail.com"
+                    >kenobiricarte@gmail.com</a
+                  >
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <h5>Web</h5>
+                  <a href="https://keneweab.github.io/portfolio-page/"
+                    >Portfolio Page</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+      <div class="content container">
+        <div class="row">
+          <div class="col-xs-6">
+            <!-- <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo" /> -->
+          </div>
+          <div class="col-xs-6 text-right sm-text-left">
+            <p class="margin-b-0">
+              <a
+                class="fweight-700"
+                href="http://keenthemes.com/preview/aircv/"
+              ></a>
+              Theme Powered by:
+              <a class="fweight-700" href="http://www.keenthemes.com/"
+                >KeenThemes.com</a
+              >
             </p>
           </div>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#work">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <!--<li><a href="#elements">Elements</a></li>-->
-          </ul>
-        </nav>
-      </header>
-
-      <!-- Main -->
-      <div id="main">
-        <!-- Intro -->
-        <article id="intro">
-          <h2 class="major">Intro</h2>
-          <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-          <p>
-            I am just trying to have a static website deployed. By the way,
-            check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>Help me design responsive front-end website pls thanks</p>
-        </article>
-
-        <!-- Work -->
-        <article id="work">
-          <h2 class="major">Work</h2>
-          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-          <p>
-            I tried front-end but that is not for me so now I want to go as back
-            end developer while learning devops role and sometime in the future
-            data analyst for AI
-          </p>
-          <p>For now, I am focusing to learn new things</p>
-        </article>
-
-        <!-- Projects -->
-        <article id="projects">
-          <h2 class="major">Projects</h2>
-          <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-          <p>Will list projects here</p>
-        </article>
-
-        <!-- Contact -->
-        <article id="contact">
-          <h2 class="major">Contact</h2>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field half">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field half">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li>
-                <input type="submit" value="Send Message" class="primary" />
-              </li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
-          <ul class="icons">
-            <li>
-              <a href="#" class="icon brands fa-twitter"
-                ><span class="label">Twitter</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="icon brands fa-facebook-f"
-                ><span class="label">Facebook</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="icon brands fa-instagram"
-                ><span class="label">Instagram</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="icon brands fa-github"
-                ><span class="label">GitHub</span></a
-              >
-            </li>
-          </ul>
-        </article>
-
-        <!-- Elements -->
-        <article id="elements">
-          <h2 class="major">Elements</h2>
-
-          <section>
-            <h3 class="major">Text</h3>
-            <p>
-              This is <b>bold</b> and this is <strong>strong</strong>. This is
-              <i>italic</i> and this is <em>emphasized</em>. This is
-              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-              This is <u>underlined</u> and this is code:
-              <code>for (;;) { ... }</code>. Finally,
-              <a href="#">this is a link</a>.
-            </p>
-            <hr />
-            <h2>Heading Level 2</h2>
-            <h3>Heading Level 3</h3>
-            <h4>Heading Level 4</h4>
-            <h5>Heading Level 5</h5>
-            <h6>Heading Level 6</h6>
-            <hr />
-            <h4>Blockquote</h4>
-            <blockquote>
-              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
-              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-              faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-            </blockquote>
-            <h4>Preformatted</h4>
-            <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-          </section>
-
-          <section>
-            <h3 class="major">Lists</h3>
-
-            <h4>Unordered</h4>
-            <ul>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-
-            <h4>Alternate</h4>
-            <ul class="alt">
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-
-            <h4>Ordered</h4>
-            <ol>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Etiam vel felis viverra.</li>
-              <li>Felis enim feugiat.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Etiam vel felis lorem.</li>
-              <li>Felis enim et feugiat.</li>
-            </ol>
-            <h4>Icons</h4>
-            <ul class="icons">
-              <li>
-                <a href="#" class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
-              </li>
-            </ul>
-
-            <h4>Actions</h4>
-            <ul class="actions">
-              <li><a href="#" class="button primary">Default</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-            <ul class="actions stacked">
-              <li><a href="#" class="button primary">Default</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-          </section>
-
-          <section>
-            <h3 class="major">Table</h3>
-            <h4>Default</h4>
-            <div class="table-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Item One</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Two</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Three</td>
-                    <td>Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Four</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Five</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-
-            <h4>Alternate</h4>
-            <div class="table-wrapper">
-              <table class="alt">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Item One</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Two</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Three</td>
-                    <td>Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Four</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Five</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-          </section>
-
-          <section>
-            <h3 class="major">Buttons</h3>
-            <ul class="actions">
-              <li><a href="#" class="button primary">Primary</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-            <ul class="actions">
-              <li><a href="#" class="button">Default</a></li>
-              <li><a href="#" class="button small">Small</a></li>
-            </ul>
-            <ul class="actions">
-              <li>
-                <a href="#" class="button primary icon solid fa-download"
-                  >Icon</a
-                >
-              </li>
-              <li>
-                <a href="#" class="button icon solid fa-download">Icon</a>
-              </li>
-            </ul>
-            <ul class="actions">
-              <li><span class="button primary disabled">Disabled</span></li>
-              <li><span class="button disabled">Disabled</span></li>
-            </ul>
-          </section>
-
-          <section>
-            <h3 class="major">Form</h3>
-            <form method="post" action="#">
-              <div class="fields">
-                <div class="field half">
-                  <label for="demo-name">Name</label>
-                  <input
-                    type="text"
-                    name="demo-name"
-                    id="demo-name"
-                    value=""
-                    placeholder="Jane Doe"
-                  />
-                </div>
-                <div class="field half">
-                  <label for="demo-email">Email</label>
-                  <input
-                    type="email"
-                    name="demo-email"
-                    id="demo-email"
-                    value=""
-                    placeholder="jane@untitled.tld"
-                  />
-                </div>
-                <div class="field">
-                  <label for="demo-category">Category</label>
-                  <select name="demo-category" id="demo-category">
-                    <option value="">-</option>
-                    <option value="1">Manufacturing</option>
-                    <option value="1">Shipping</option>
-                    <option value="1">Administration</option>
-                    <option value="1">Human Resources</option>
-                  </select>
-                </div>
-                <div class="field half">
-                  <input
-                    type="radio"
-                    id="demo-priority-low"
-                    name="demo-priority"
-                    checked
-                  />
-                  <label for="demo-priority-low">Low</label>
-                </div>
-                <div class="field half">
-                  <input
-                    type="radio"
-                    id="demo-priority-high"
-                    name="demo-priority"
-                  />
-                  <label for="demo-priority-high">High</label>
-                </div>
-                <div class="field half">
-                  <input type="checkbox" id="demo-copy" name="demo-copy" />
-                  <label for="demo-copy">Email me a copy</label>
-                </div>
-                <div class="field half">
-                  <input
-                    type="checkbox"
-                    id="demo-human"
-                    name="demo-human"
-                    checked
-                  />
-                  <label for="demo-human">Not a robot</label>
-                </div>
-                <div class="field">
-                  <label for="demo-message">Message</label>
-                  <textarea
-                    name="demo-message"
-                    id="demo-message"
-                    placeholder="Enter your message"
-                    rows="6"
-                  ></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li>
-                  <input type="submit" value="Send Message" class="primary" />
-                </li>
-                <li><input type="reset" value="Reset" /></li>
-              </ul>
-            </form>
-          </section>
-        </article>
+        <!--// end row -->
       </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
 
-      <!-- Footer -->
-      <footer id="footer">
-        <p class="copyright">
-          &copy;
-          <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
-      </footer>
-    </div>
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
-    <!-- BG -->
-    <div id="bg"></div>
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script
+      src="vendor/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script
+      src="vendor/jquery.smooth-scroll.js"
+      type="text/javascript"
+    ></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script
+      src="vendor/masonry/jquery.masonry.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="vendor/masonry/imagesloaded.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script
+      src="js/components/progress-bar.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
   </body>
+  <!-- END BODY -->
 </html>
